@@ -1,0 +1,10 @@
+pipeline{
+agent any
+   stages{
+     stage("test"){
+       step{
+         maven 3.5.4
+     }
+   }
+ }
+}
